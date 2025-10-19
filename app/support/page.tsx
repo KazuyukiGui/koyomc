@@ -64,7 +64,11 @@ export default function SupportPage() {
             </SharedButton>
           </>
         }
-      />
+      >
+        <div className="mx-auto mt-6 max-w-3xl rounded-3xl border border-border/60 bg-white p-6 text-sm text-subtext shadow-soft md:text-base">
+          <p>無料送迎の対象エリアや時間、栄養相談・制度手続きのスケジュールなど、詳細は担当スタッフが個別にご案内します。お気軽にお問合せください。</p>
+        </div>
+      </Section>
     </>
   );
 }
