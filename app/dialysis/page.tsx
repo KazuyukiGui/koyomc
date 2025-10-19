@@ -140,7 +140,11 @@ export default function DialysisPage() {
             </SharedButton>
           </>
         }
-      />
+      >
+        <div className="mx-auto mt-6 max-w-3xl rounded-3xl border border-border/60 bg-white p-6 text-sm text-subtext shadow-soft md:text-base">
+          <p>初診時には現在の透析条件や検査データ、紹介状をご準備いただけると手続きがスムーズです。送迎の可否や時間帯についてもお気軽にご相談ください。</p>
+        </div>
+      </Section>
     </>
   );
 }
