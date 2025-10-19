@@ -1,8 +1,8 @@
-import Link, { LinkProps } from "next/link";
+import Link from "next/link";
 import { ReactNode } from "react";
 
 type SharedButtonProps = {
-  href: LinkProps["href"];
+  href: string;
   children: ReactNode;
   variant?: "primary" | "secondary" | "ghost";
   className?: string;
