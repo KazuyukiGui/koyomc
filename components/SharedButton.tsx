@@ -1,8 +1,8 @@
-import Link from "next/link";
+import Link, { LinkProps } from "next/link";
 import { ReactNode } from "react";
 
 type SharedButtonProps = {
-  href: string;
+  href: LinkProps["href"];
   children: ReactNode;
   variant?: "primary" | "secondary" | "ghost";
   className?: string;
@@ -21,4 +21,3 @@ export function SharedButton({ href, children, variant = "primary", className }:
     </Link>
   );
 }
-
